@@ -53,7 +53,7 @@ export const route: Route = {
     radar: [
         {
             source: ['malaysiakini.com/'],
-            target: '/en',
+            target: '/zh',
         },
         {
             source: ['malaysiakini.com/:lang'],
