@@ -21,18 +21,17 @@ export const route: Route = {
         supportScihub: false,
         requireConfig: [
             {
-                name: 'mqsms162@gmail.com',
+                name: 'MALAYSIAKINI_EMAIL',
                 optional: true,
                 description: 'Malaysiakini Email or Username',
             },
             {
-                name: '12345678',
+                name: 'MALAYSIAKINI_PASSWORD',
                 optional: true,
                 description: 'Malaysiakini Password',
             },
             {
-                name: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoidmZuQ3paRGk3Vk43ekVBR2pXUDQiLCJpYXQiOjE3MjY0NzA4MjIsImV4cCI6MTczNDI0NjgyMn0.PLLKoaJISssV4WyDrlxAIT70FeLRSJq1EMFA1iDGPMY
-',
+                name: 'MALAYSIAKINI_REFRESHTOKEN',
                 optional: true,
                 description: 'To obtain the refresh token, log into Malaysiakini and look for the cookie `nl____refreshToken` within document.cookie in the browser console. The token is the value of the cookie.',
             },
